@@ -6,8 +6,9 @@ menuToggle.addEventListener("click", function () {
 });
 
 var typed = new Typed(".input", {
-  strings: ["Lemari", "UX Designer", "Web Developer"],
-  typedSpeed: 70,
-  backSpeed: 55,
-  loop: true,
-});
+    strings: ["Lemari", "UX Designer", "Web Developer"],
+    typedSpeed: 70,
+    backSpeed: 55,
+    loop: true,
+  });
+  
