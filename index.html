@@ -18,10 +18,20 @@
   />
 
 
-  <link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <!----Font-->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+/>
 
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<link rel="stylesheet"
+href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
   </head>
   <section>
     <!-- NAVBAR -->
@@ -59,13 +69,13 @@
     <!-- HOME -->
     <section class="hero" id="Home">
       <main class="content">
-        <h1 class="text-warning">Gulai <span class="logo">Tikungan</span></h1>
-        <p>
-          Makanan lezat dan bergizi yang dibuat dengan sepenuh hati cocok untuk
-          orang yang tersakiti karena tertikung teman sendiri.
+        <h1 class="text-warning" data-aos="fade-right" data-aos-duration="1200">Gulai <span class="logo">Tikungan</span></h1>
+        <p data-aos="fade-left" data-aos-duration="1200">
+          Makanan lezat dan bergizi yang dibuat dengan sepenuh hati cocok untuk <span class="input">
+          orang yang tersakiti karena tertikung teman sendiri.</span>
         </p>
-        <p>-Gulai Tikungan</p>
-        <a href="#Menu">Pesan Sekarang</a>
+        <p data-aos="fade-left" data-aos-duration="1200">-Gulai Tikungan</p>
+        <a href="#Menu" data-aos="fade-up" data-aos-duration="1200">Pesan Sekarang</a>
       </main>
     </section>
     <!-- HOME SELESAI -->
@@ -73,11 +83,14 @@
 
     <!-- ABOUT -->
 <section class="about" id="About">
-  <h1 class="text-warning">
+  
+  <div class="tentang">
+  <h1 class="text-warning" data-aos="zoom-in" data-aos-duration="1200">
     Tentang <span class="logo">Kami</span>
   </h1>
+</div>
 
-  <div id="carouselExampleCaptions" class="carousel slide">
+  <div id="carouselExampleCaptions" class="carousel slide" data-aos="flip-down" data-aos-duration="1200">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -106,69 +119,94 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+  </div>
 
-    <div class="caption">
-    <h3>Memiliki 2 cabang yang berlokasi di Kota Bandung.</h3>
-    <ul>
+    <div class="caption1" data-aos="fade-right" data-aos-duration="1200">
+    <h3 class="text-warning">Memiliki 2 cabang yang berlokasi <span class="logo">di Kota Bandung.</span></h3>
+    <ul class="text-warning">
       <li>Cabang Utama di Jl. Geger Kalong Setia Budi, Bandung Kota</li>
       <li>Cabang Kedua di Jl. Gedung Sate, Bandung Kota</li>
     </ul>
   </div>
-  </div>
+ 
 
 </section>
 <!-- ABOUT SELESAI -->
 
     <!-- MENU -->
-    <section class="menu" id="Menu">
-      <h1 class="text-warning">Menu <span class="logo">Kami</span></h1>
-      
-      <div class="menucontainer">
-      <div class="card bg-black" style="width: 18rem;">
-        <img src="img/gultik.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-warning">Gultik 2 porsi</h5>
-          
-          <a href="#" class="btn btn-warning">Tambah pesanan.</a>
-        </div>
-      </div>
+      <section id="Menu" class="Menu">
+        <div class="best">
+        <h1 class="text-warning" data-aos="zoom-in" data-aos-duration="1200"> Menu in <span class="logo">our Resto</span></h1>
+        
+    <h1 class="seller text-warning" data-aos="fade-up" data-aos-duration="1200">Best <span class="logo">Seller!</span></h1>
+    <img src="img/gultik.png" alt="" data-aos="fade-up" data-aos-duration="1200">
+  </div>
 
-      <div class="card bg-black" style="width: 18rem;">
-        <img src="img/2.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-warning">Gultik 1 porsi</h5>
-          
-          <a href="#" class="btn btn-warning">Tambah pesanan.</a>
-        </div>
-      </div>
+  <div class="text-center text-warning" data-aos="fade-up" data-aos-duration="1200">
+  <h4>Gultik Jumbo</h4>
+  <h5>IDR 15k</h5>
+</div>
 
-    </div>
+  <div class="menubiasa" >
 
-
-      <div class="menucontainer1">
-      <div class="card bg-black" style="width: 18rem;">
-        <img src="img/3.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-warning">Sate usus</h5>
-          
-          <a href="#" class="btn btn-warning">Tambah pesanan.</a>
-        </div>
-      </div>
-
-      <div class="card bg-black" style="width: 18rem;">
-        <img src="img/4.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-warning">Air mineral</h5>
-          
-          <a href="#" class="btn btn-warning">Tambah pesanan.</a>
-        </div>
+    <div class="card bg-black" style="width: 18rem;" data-aos="zoom-out-right" data-aos-duration="1200">
+      <img src="img/normal.png" class="card-img-top" alt="...">
+      <div class="card-body text-center ">
+        <h5 class="card-title text-warning">Gultik Normal</h5>
+        <p class="card-text text-warning">IDR 10k</p>
       </div>
     </div>
 
+    <div class="card bg-black" style="width: 18rem;" data-aos="zoom-out-left" data-aos-duration="1200">
+      <img src="img/ampela.png" class="card-img-top" alt="...">
+      <div class="card-body text-center ">
+        <h5 class="card-title text-warning">Sate Ampela</h5>
+        <p class="card-text text-warning">IDR 3k</p>
+      </div>
+    </div>
+
+    <div class="card bg-black" style="width: 18rem;" data-aos="zoom-out-right" data-aos-duration="1200">
+      <img src="img/usus.png" class="card-img-top" alt="...">
+      <div class="card-body text-center ">
+        <h5 class="card-title text-warning"> Sate Usus</h5>
+        <p class="card-text text-warning">IDR 3k</p>
+      </div>
+    </div>
+
+    <div class="card bg-black" style="width: 18rem;" data-aos="zoom-out-left" data-aos-duration="1200">
+      <img src="img/mineral.png" class="card-img-top" alt="...">
+      <div class="card-body text-center ">
+        <h5 class="card-title text-warning">Air Mineral</h5>
+        <p class="card-text text-warning">IDR 5k</p>
+      </div>
+    </div>
+
+    <div class="card bg-black" style="width: 18rem;" data-aos="zoom-out-right" data-aos-duration="1200">
+      <img src="img/manis.png" class="card-img-top" alt="...">
+      <div class="card-body text-center ">
+        <h5 class="card-title text-warning">Es Teh Manis</h5>
+        <p class="card-text text-warning">IDR 5k</p>
+      </div>
+    </div>
+
+    <div class="card bg-black" style="width: 18rem;" data-aos="zoom-out-left" data-aos-duration="1200"> 
+      <img src="img/jeruk.png" class="card-img-top" alt="...">
+      <div class="card-body text-center ">
+        <h5 class="card-title text-warning">Es Jeruk</h5>
+        <p class="card-text text-warning">IDR 5k</p>
+      </div>
+    </div>
+
+  
+
+  </div>
 
 
 
-      </section>
+
+  </section>
+
+
     <!-- MENU SELESAI -->
 
 
@@ -180,7 +218,7 @@
         </h1>
         <div class="box">
           <!-- FORM -->
-          <div class="contact form">
+          <div class="contact form" data-aos="zoom-out-right" data-aos-duration="1200"> 
             <h3>Send a massage..</h3>
             <form action="">
               <div class="formBox">
@@ -226,7 +264,7 @@
           </div>
   
           <!-- INFO -->
-          <div class="contact info">
+          <div class="contact info" id="Contact" data-aos="zoom-out-left" data-aos-duration="1200">
             <h3>Contact Info</h3>
             <div class="infoBox">
               <div class="">
@@ -253,23 +291,23 @@
               <!-- sosmed -->
               <ul class="sci">
                 <li>
-                  <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+                  <a href="https://www.facebook.com/login"><ion-icon name="logo-facebook"></ion-icon></a>
                 </li>
                 <li>
-                  <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                  <a href="https://www.instagram.com"><ion-icon name="logo-instagram"></ion-icon></a>
                 </li>
                 <li>
-                  <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+                  <a href="https://www.twitter.com"><ion-icon name="logo-twitter"></ion-icon></a>
                 </li>
                 <li>
-                  <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+                  <a href="https://www.linkedin.com"><ion-icon name="logo-linkedin"></ion-icon></a>
                 </li>
               </ul>
             </div>
           </div>
   
           <!-- MAP -->
-          <div class="contact map">
+          <div class="contact map" data-aos="zoom-out-left" data-aos-duration="1200">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15844.68702777162!2d107.58737194999999!3d-6.870012499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e697751c843d%3A0xf1b8a7867349f7a3!2sGegerkalong%2C%20Kec.%20Sukasari%2C%20Kota%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1736052553623!5m2!1sid!2sid"
               style="border: 0"
@@ -296,7 +334,7 @@
           <a href="https://www.instagram.com/viisss.__/" target="_blank"
             ><i class="bx bxl-instagram"></i
           ></a>
-          <a href="https://wa.me/081316511267" target="_blank"
+          <a href="https://wa.me/08123456789" target="_blank"
             ><i class="bx bxl-whatsapp"></i
           ></a>
           <a href="https://github.com/alvis505" target="_blank"
@@ -336,6 +374,14 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+     <!---typed js for typing text effect-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
 

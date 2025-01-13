@@ -80,6 +80,12 @@ html {
   box-shadow: 2px 2px 4px rgba(1, 1, 3, 1);
   text-decoration: none;
   cursor: pointer;
+  transition: 0.6s ease-in-out;
+}
+
+.content a:hover {
+  transform: scale(1) translateY(-9px);
+  color: #333;
 }
 
 @media (max-width: 768px) {
@@ -103,62 +109,99 @@ html {
   }
 }
 
+/* tentang */
 .about {
   background-color: #000;
   min-height: 100vh;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.about h1 {
-  font-size: 3em;
-  font-weight: bold;
+.tentang h1 {
   text-align: center;
-  padding: 90px 0px 0px 0px;
+  font-size: 2.5rem;
+  padding-top: 60px;
+  font-weight: bolder;
 }
 
-.carousel {
-  padding: 40px 80px;
+.carousel-item img {
+  border-radius: 10%;
+  padding: 20px;
 }
+
+.caption1 {
+  padding: 15px;
+  text-align: center;
+}
+
+.caption1 ul {
+  list-style: none;
+}
+
+/* .carousel {
+  padding: 40px 80px;
+} */
 
 /* BAGIAN MENU */
-.menu {
-  min-height: 100vh;
+
+.Menu {
   background-color: #000;
+  padding-top: 60px;
 }
 
-.menu h1 {
-  font-size: 4em;
-  font-weight: bold;
-  text-align: center;
-  padding: 70px 0px;
-}
-
-.menucontainer {
-  display: flex;
-  position: relative;
+.best {
   align-items: center;
+  text-align: center;
 }
 
-.menucontainer1 {
-  display: flex;
-  position: relative;
+.best h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
 }
-.card {
-  /* padding: 50px; */
-  margin: 50px;
-  color: #000;
+
+.seller {
+  padding-top: 50px;
+}
+
+.best img {
+  width: 50%;
+  cursor: pointer;
+  transition: 0.8s ease;
+}
+
+.best img:hover {
+  transform: scale(1) translateY(-9px);
+}
+
+.menubiasa {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .card img {
   border-radius: 50%;
+  cursor: pointer;
+  transition: 0.8s ease;
 }
 
-.card-body {
-  color: #000;
+.card img:hover {
+  transform: scale(1) translateY(-9px);
 }
+
+@media (max-width: 786px) {
+  .best img {
+    width: 70%;
+  }
+}
+
 /* CONTACT */
+
 .contactUs h1 {
   text-align: center;
   font-size: 3em;
+  padding-top: 30px;
 }
 
 .contactkita {
